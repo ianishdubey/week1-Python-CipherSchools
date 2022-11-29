@@ -1,5 +1,4 @@
-
-#different ways of using double quotes and single quotes
+#Different ways of using double quotes and single quotes
 print("hello world")
 
 #Single quotes can be used in double quotes
