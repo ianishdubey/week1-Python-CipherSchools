@@ -8,6 +8,8 @@
   
 word,single_character=input("input should be comma seperated: " ).split(",")
 length=len(word)
-times=word.count(single_character)
+small_word=word.lower()
+small_char=single_character.lower()
+times=small_word.count(small_char)
 print(f"length of the word is {length}")
 print(f"number of count of {single_character} is {times} ")
